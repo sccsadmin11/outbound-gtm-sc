@@ -1,0 +1,78 @@
+{
+  "signature": "{{sender_first_name}}\nFounder, Acme Route Co\nacme.example",
+  "opt_out": "If you don't want to hear from me again, just reply no thx!",
+  "steps": [
+    {
+      "step": 1,
+      "wait_time": 0,
+      "variations": [
+        {
+          "template_id": "1A",
+          "variation": "A",
+          "subject": "routes at {{company_name}}",
+          "body_text": "{{first_name}}, we build your daily delivery routes so dispatch stops doing it by hand every morning.\n\nWant me to run one day of your routes through it?\n\nP.S. I can also send a simple per-stop planning sheet if that is more useful.\n\n{{sender_first_name}}\nFounder, Acme Route Co\nacme.example\n\nIf you don't want to hear from me again, just reply no thx!",
+          "body_html": "<div>{{first_name}}, we build your daily delivery routes so dispatch stops doing it by hand every morning.</div><div><br></div><div>Want me to run one day of your routes through it?</div><div><br></div><div>P.S. I can also send a simple per-stop planning sheet if that is more useful.</div><div><br></div><div>{{sender_first_name}}</div><div>Founder, Acme Route Co</div><div>acme.example</div><div><br></div><div>If you don't want to hear from me again, just reply no thx!</div>",
+          "merge_vars": [
+            "company_name",
+            "first_name",
+            "sender_first_name"
+          ]
+        },
+        {
+          "template_id": "1B",
+          "variation": "B",
+          "subject": "{{company_name}} dispatch",
+          "body_text": "{{first_name}}, {{market_insight}}.\n\nThat usually means routes still get planned by hand each morning.\n\nWe re-plan one day of your real routes and show you the side-by-side, free.\n\nWorth a look?\n\n{{sender_first_name}}\nFounder, Acme Route Co\nacme.example\n\nIf you don't want to hear from me again, just reply no thx!",
+          "body_html": "<div>{{first_name}}, {{market_insight}}.</div><div><br></div><div>That usually means routes still get planned by hand each morning.</div><div><br></div><div>We re-plan one day of your real routes and show you the side-by-side, free.</div><div><br></div><div>Worth a look?</div><div><br></div><div>{{sender_first_name}}</div><div>Founder, Acme Route Co</div><div>acme.example</div><div><br></div><div>If you don't want to hear from me again, just reply no thx!</div>",
+          "merge_vars": [
+            "company_name",
+            "first_name",
+            "market_insight",
+            "sender_first_name"
+          ]
+        },
+        {
+          "template_id": "1C",
+          "variation": "C",
+          "subject": "made this for {{company_name}}",
+          "body_text": "{{first_name}}, I made a one-page dispatcher morning checklist for {{company_name}} to plan routes faster.\n\nShould I send it over?\n\n{{sender_first_name}}\nFounder, Acme Route Co\nacme.example\n\nIf you don't want to hear from me again, just reply no thx!",
+          "body_html": "<div>{{first_name}}, I made a one-page dispatcher morning checklist for {{company_name}} to plan routes faster.</div><div><br></div><div>Should I send it over?</div><div><br></div><div>{{sender_first_name}}</div><div>Founder, Acme Route Co</div><div>acme.example</div><div><br></div><div>If you don't want to hear from me again, just reply no thx!</div>",
+          "merge_vars": [
+            "company_name",
+            "first_name",
+            "sender_first_name"
+          ]
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "wait_time": 3,
+      "variations": [
+        {
+          "template_id": "2A",
+          "variation": "A",
+          "subject": "",
+          "body_text": "{{first_name}}, the reason I reached out to you the other day is because we help companies like {{company_name}} solve daily routes that still get built by hand.\n\nWe recently worked with Example Freight Co and generated them a clear automated route plan for every morning.\n\nHappy to re-plan one day of your routes so you can compare.\n\nOpen to that.\n\n{{sender_first_name}}\nFounder, Acme Route Co\nacme.example\n\nIf you don't want to hear from me again, just reply no thx!",
+          "body_html": "<div>{{first_name}}, the reason I reached out to you the other day is because we help companies like {{company_name}} solve daily routes that still get built by hand.</div><div><br></div><div>We recently worked with Example Freight Co and generated them a clear automated route plan for every morning.</div><div><br></div><div>Happy to re-plan one day of your routes so you can compare.</div><div><br></div><div>Open to that.</div><div><br></div><div>{{sender_first_name}}</div><div>Founder, Acme Route Co</div><div>acme.example</div><div><br></div><div>If you don't want to hear from me again, just reply no thx!</div>",
+          "merge_vars": [
+            "company_name",
+            "first_name",
+            "sender_first_name"
+          ]
+        },
+        {
+          "template_id": "2B",
+          "variation": "B",
+          "subject": "",
+          "body_text": "Whos the best person to reach at {{company_name}} regarding delivery route planning?\n\nIf i've reached the wrong person could you point me in the right direction?\n\nThank you\n\n{{sender_first_name}}\nFounder, Acme Route Co\nacme.example\n\nIf you don't want to hear from me again, just reply no thx!",
+          "body_html": "<div>Whos the best person to reach at {{company_name}} regarding delivery route planning?</div><div><br></div><div>If i've reached the wrong person could you point me in the right direction?</div><div><br></div><div>Thank you</div><div><br></div><div>{{sender_first_name}}</div><div>Founder, Acme Route Co</div><div>acme.example</div><div><br></div><div>If you don't want to hear from me again, just reply no thx!</div>",
+          "merge_vars": [
+            "company_name",
+            "sender_first_name"
+          ]
+        }
+      ]
+    }
+  ]
+}

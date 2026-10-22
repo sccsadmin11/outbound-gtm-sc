@@ -1,0 +1,2 @@
+domain,company_name,company_linkedin_url,persona,first_name,last_name,full_name,title,linkedin_url,email,email_status,people_source,account_score,email_source,verify_mv,verify_bb,verify_reason
+acmefreight.example,Acme Freight Lines,https://www.linkedin.com/company/acme-freight-lines-demo,Dispatch / fleet manager,Marco,Diaz,Marco Diaz,Fleet Manager,https://www.linkedin.com/in/marco-diaz-demo,marco@acmefreight.example,VERIFIED,quickenrich,86,prospeo,catch_all,risky,MillionVerifier catch_all -> BounceBan risky

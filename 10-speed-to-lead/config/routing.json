@@ -1,0 +1,11 @@
+{
+  "_help": "What happens per reply class. draft = Clay's reply is saved as a DRAFT in PlusVibe (never sent). pings = Slack pings to the rep (max 2: at +0 and +5 min, business hours only).",
+  "interested":      {"draft": true,  "pings": 2},
+  "meeting_request": {"draft": true,  "pings": 2},
+  "question":        {"draft": true,  "pings": 2},
+  "referral":        {"draft": true,  "pings": 2},
+  "not_now":         {"draft": true,  "pings": 1},
+  "not_interested":  {"draft": false, "pings": 0},
+  "ooo":             {"draft": false, "pings": 0},
+  "unsubscribe":     {"draft": false, "pings": 1}
+}

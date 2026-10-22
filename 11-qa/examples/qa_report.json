@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "launch_allowed": true,
+  "checked_at": "2026-10-22T23:06:02+00:00",
+  "mode": "offline",
+  "campaign_id": "000000000000000000c0ffee",
+  "campaign_name": "Acme Q3 fleets",
+  "lead_count": 2,
+  "checks": [
+    {
+      "check": "leads_unique",
+      "passed": true,
+      "detail": "2 leads, 0 duplicate(s)",
+      "items": []
+    },
+    {
+      "check": "leads_verified",
+      "passed": true,
+      "detail": "2/2 verified",
+      "items": []
+    },
+    {
+      "check": "merge_vars_filled",
+      "passed": true,
+      "detail": "all merge vars have values",
+      "items": []
+    },
+    {
+      "check": "signature_opt_out",
+      "passed": true,
+      "detail": "signature + opt-out in every email",
+      "items": []
+    },
+    {
+      "check": "spam_check_passed",
+      "passed": true,
+      "detail": "passed, matches current sequence.json",
+      "items": []
+    },
+    {
+      "check": "plusvibe_settings",
+      "passed": true,
+      "detail": "6 inboxes, limit 90, priority 0.5",
+      "items": []
+    },
+    {
+      "check": "webhook_reachable",
+      "passed": true,
+      "detail": "https://relay.acme.example/health ok",
+      "items": []
+    }
+  ]
+}

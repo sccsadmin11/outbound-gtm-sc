@@ -1,0 +1,7 @@
+email,first_name,last_name,domain,status,zapmail_mailbox_id
+jamie@acmeoutbound.example,Jamie,Rivera,acmeoutbound.example,ACTIVE,mbx_demo_001
+alex@acmeoutbound.example,Alex,Chen,acmeoutbound.example,ACTIVE,mbx_demo_002
+jamie.rivera@acmeoutbound.example,Jamie,Rivera,acmeoutbound.example,ACTIVE,mbx_demo_003
+jamie@tryacmehq.example,Jamie,Rivera,tryacmehq.example,ACTIVE,mbx_demo_004
+alex@tryacmehq.example,Alex,Chen,tryacmehq.example,ACTIVE,mbx_demo_005
+jamie.rivera@tryacmehq.example,Jamie,Rivera,tryacmehq.example,ACTIVE,mbx_demo_006

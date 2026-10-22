@@ -1,0 +1,8 @@
+{
+  "_help": "Who gets pinged. Match order: by_inbox (the PlusVibe inbox that got the reply), then by_campaign, then default. slack_user_id is the member ID from the Slack profile (starts with U).",
+  "default": {"name": "Jamie Rivera", "slack_user_id": "U00000000AA"},
+  "by_inbox": {
+    "alex@acmeoutbound.example": {"name": "Alex Chen", "slack_user_id": "U00000000BB"}
+  },
+  "by_campaign": {}
+}

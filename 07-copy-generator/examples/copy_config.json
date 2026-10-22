@@ -1,0 +1,45 @@
+{
+  "_help": "Fill every slot. A value can be plain text or use merge vars: {{company_name}}, {{first_name}}, or any column in your leads CSV (for example {{market_insight}}). Do not change the templates.",
+  "sender": {
+    "name": "{{sender_first_name}}",
+    "title": "Founder",
+    "company": "Acme Route Co",
+    "website": "acme.example"
+  },
+  "opt_out": "If you don't want to hear from me again, just reply no thx!",
+  "wait_days": {"1": 0, "2": 3},
+  "subjects": {
+    "1A": "routes at {{company_name}}",
+    "1B": "{{company_name}} dispatch",
+    "1C": "made this for {{company_name}}",
+    "2A": "",
+    "2B": ""
+  },
+  "slots": {
+    "1A": {
+      "the value prop in one line": "we build your daily delivery routes so dispatch stops doing it by hand every morning",
+      "CTA": "Want me to run one day of your routes through it?"
+    },
+    "1B": {
+      "market insight we found": "{{market_insight}}",
+      "How it ties into the offer": "That usually means routes still get planned by hand each morning.",
+      "THe offer": "We re-plan one day of your real routes and show you the side-by-side, free.",
+      "CTA": "Worth a look?"
+    },
+    "1C": {
+      "i made a lead magnet for you to solve XYZ problem": "I made a one-page dispatcher morning checklist for {{company_name}} to plan routes faster.",
+      "CTA": "Should I send it over?"
+    },
+    "2A": {
+      "someone similar to COMPANY": "Example Freight Co",
+      "insert offer": "Happy to re-plan one day of your routes so you can compare.",
+      "CTA": "Open to that"
+    },
+    "2B": {}
+  },
+  "plain": {
+    "1A": {"ps_line": "I can also send a simple per-stop planning sheet if that is more useful."},
+    "2A": {"problem": "daily routes that still get built by hand", "result": "a clear automated route plan for every morning"},
+    "2B": {"topic": "delivery route planning"}
+  }
+}

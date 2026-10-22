@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "hit_count": 0,
+  "hits": [],
+  "template_notes": [
+    {
+      "where": "Email 2B body",
+      "match": "the best",
+      "phrase": "the best",
+      "category": "overpromise",
+      "suggestion": "part of the verbatim template, kept on purpose"
+    }
+  ],
+  "source": "https://mailmeteor.com/blog/spam-words",
+  "sequence_sha256": "dd3107ab068ed8c331e39199fa6a346976960a783a0816f9b59a891f18d104c2"
+}

@@ -1,0 +1,45 @@
+{
+  "_note": "Verbatim templates. Do not edit the text. Only the {{...}} slots and the listed plain placeholders get filled. The typos ({{THe offer}}, Whos, i've) are intentional.",
+  "templates": {
+    "1A": "First_name, {{the value prop in one line}}.\n\n{{CTA}}\n\nP.S. line",
+    "1B": "First_name, {{market insight we found}}.\n\n{{How it ties into the offer}}\n\n{{THe offer}}\n\n{{CTA}}",
+    "1C": "First_name, {{i made a lead magnet for you to solve XYZ problem}}\n\n{{CTA}}",
+    "2A": "First_name, the reason I reached out to you the other day is because we help companies like {{COMPANY}} solve X problem (tied to the offer this cold email thread is trying to sell).\n\nWe recently worked with {{someone similar to COMPANY}} and generated them ABC result.\n\n{{insert offer}}\n\n{{CTA}}.",
+    "2B": "Whos the best person to reach at {{COMPANY}} regarding X?\n\nIf i've reached the wrong person could you point me in the right direction?\n\nThank you"
+  },
+  "plain_placeholders": {
+    "1A": [
+      {
+        "find": "P.S. line",
+        "key": "ps_line",
+        "replace_with": "P.S. {value}"
+      }
+    ],
+    "2A": [
+      {
+        "find": "X problem (tied to the offer this cold email thread is trying to sell)",
+        "key": "problem",
+        "replace_with": "{value}"
+      },
+      {
+        "find": "ABC result",
+        "key": "result",
+        "replace_with": "{value}"
+      }
+    ],
+    "2B": [
+      {
+        "find": "regarding X?",
+        "key": "topic",
+        "replace_with": "regarding {value}?"
+      }
+    ]
+  },
+  "system_slots": {
+    "COMPANY": "{{company_name}}"
+  },
+  "first_name_token": {
+    "find": "First_name",
+    "replace_with": "{{first_name}}"
+  }
+}

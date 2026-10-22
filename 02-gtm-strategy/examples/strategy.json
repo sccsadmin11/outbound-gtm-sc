@@ -1,0 +1,45 @@
+{
+  "company": {"name": "Acme Route Co", "url": "https://acme.example"},
+  "core_offer": {
+    "name": "Acme Route Planner",
+    "one_liner": "Route planning software that builds daily delivery routes for regional fleets.",
+    "outcome": "Dispatchers stop building routes by hand and drivers get clear daily plans.",
+    "price_point": "Annual subscription per vehicle"
+  },
+  "icp": {
+    "icp_text": "Regional delivery and distribution companies in the US running their own fleet of 20 or more vans or trucks.",
+    "negate_icp_text": "Freight brokers, logistics software vendors, consulting firms",
+    "industries": ["Transportation", "Wholesale distribution", "Food distribution"],
+    "employee_range": "50,1000",
+    "countries": ["US"],
+    "lookalike_domains": ["examplefreight.example"],
+    "exclude": ["acme.example"]
+  },
+  "personas": [
+    {"persona": "Operations leader", "titles": ["VP Operations", "Director of Operations", "COO"],
+     "exclude_titles": ["Assistant", "Intern"], "cares_about": ["On-time delivery", "Cost per stop"]},
+    {"persona": "Dispatch / fleet manager", "titles": ["Fleet Manager", "Dispatch Manager", "Transportation Manager"],
+     "exclude_titles": ["Assistant", "Intern"], "cares_about": ["Hours spent planning", "Driver overtime"]}
+  ],
+  "pains": [
+    {"pain": "Routes are planned by hand in spreadsheets every morning", "persona": "Dispatch / fleet manager",
+     "cost_of_inaction": "Hours of dispatcher time every day and late starts for drivers"},
+    {"pain": "No clear view of cost per stop", "persona": "Operations leader",
+     "cost_of_inaction": "Pricing and expansion decisions are made on guesses"},
+    {"pain": "Driver overtime from inefficient routes", "persona": "Operations leader",
+     "cost_of_inaction": "Payroll creeps up and drivers burn out"}
+  ],
+  "front_end_offers": [
+    {"name": "Free route teardown", "what_they_get": "We re-plan one day of their real routes and show the side-by-side",
+     "piece_of_core_offer": "The route optimization engine", "cta": "Want me to run one day of your routes through it?"},
+    {"name": "Cost-per-stop calculator", "what_they_get": "A simple sheet that shows their cost per stop from numbers they already have",
+     "piece_of_core_offer": "The reporting module", "cta": "Want the calculator?"},
+    {"name": "Dispatcher morning checklist", "what_they_get": "A one-page checklist for planning routes faster tomorrow morning",
+     "piece_of_core_offer": "The planning workflow", "cta": "Should I send it over?"}
+  ],
+  "proof_points": [
+    {"claim": "Case study with Example Freight Co on moving from spreadsheets to automated routes",
+     "source": "https://acme.example/customers/example-freight"},
+    {"claim": "Integrates with common telematics providers", "source": "https://acme.example/integrations"}
+  ]
+}

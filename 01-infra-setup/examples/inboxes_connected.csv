@@ -1,0 +1,7 @@
+email,in_plusvibe,plusvibe_account_id,status,warmup_status,provider
+jamie@acmeoutbound.example,yes,000000000000000000a11ce0,ACTIVE,ACTIVE,GOOGLE_WORKSPACE
+alex@acmeoutbound.example,yes,000000000000000000a11ce1,ACTIVE,ACTIVE,GOOGLE_WORKSPACE
+jamie.rivera@acmeoutbound.example,yes,000000000000000000a11ce2,ACTIVE,ACTIVE,GOOGLE_WORKSPACE
+jamie@tryacmehq.example,yes,000000000000000000a11ce3,ACTIVE,ACTIVE,GOOGLE_WORKSPACE
+alex@tryacmehq.example,yes,000000000000000000a11ce4,ACTIVE,ACTIVE,GOOGLE_WORKSPACE
+jamie.rivera@tryacmehq.example,yes,000000000000000000a11ce5,ACTIVE,ACTIVE,GOOGLE_WORKSPACE

@@ -1,0 +1,31 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# run outputs (examples/ folders are committed on purpose)
+/*.csv
+/*.json
+/site_notes.md
+/strategy.md
+/preview.md
+/runs/
+/out/
+relay_state.json
+relay_state.tmp
+/campaign_state.json
+/qa_report.*
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# os / editors
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,32 @@
+{
+  "company": {"name": "", "url": ""},
+  "core_offer": {
+    "name": "",
+    "one_liner": "",
+    "outcome": "",
+    "price_point": ""
+  },
+  "icp": {
+    "icp_text": "One plain sentence describing the ideal account. DiscoLike uses this for semantic search.",
+    "negate_icp_text": "",
+    "industries": [],
+    "employee_range": "min,max",
+    "countries": ["US"],
+    "lookalike_domains": [],
+    "exclude": []
+  },
+  "personas": [
+    {"persona": "", "titles": [], "exclude_titles": [], "cares_about": []}
+  ],
+  "pains": [
+    {"pain": "", "persona": "", "cost_of_inaction": ""}
+  ],
+  "front_end_offers": [
+    {"name": "", "what_they_get": "", "piece_of_core_offer": "", "cta": ""},
+    {"name": "", "what_they_get": "", "piece_of_core_offer": "", "cta": ""},
+    {"name": "", "what_they_get": "", "piece_of_core_offer": "", "cta": ""}
+  ],
+  "proof_points": [
+    {"claim": "", "source": ""}
+  ]
+}

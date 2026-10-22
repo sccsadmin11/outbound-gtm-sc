@@ -1,0 +1,4 @@
+domain,available,price_usd,regular_price_usd,renewal_price_usd,first_year_promo,premium,min_duration_years,note
+acmeoutbound.example,yes,11.08,11.08,11.08,no,no,1,
+tryacmehq.example,yes,11.08,11.08,11.08,no,no,1,
+acme-mail.example,no,,,,,,,

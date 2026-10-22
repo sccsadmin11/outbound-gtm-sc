@@ -1,0 +1,30 @@
+{
+  "name": "Acme Q3 fleets",
+  "campaign_id": "000000000000000000c0ffee",
+  "inbox_count": 6,
+  "inbox_emails": [
+    "jamie@acmeoutbound.example",
+    "alex@acmeoutbound.example",
+    "jamie.rivera@acmeoutbound.example",
+    "jamie@tryacmehq.example",
+    "alex@tryacmehq.example",
+    "jamie.rivera@tryacmehq.example"
+  ],
+  "account_ids": [
+    "000000000000000000a11ce0",
+    "000000000000000000a11ce1",
+    "000000000000000000a11ce2",
+    "000000000000000000a11ce3",
+    "000000000000000000a11ce4",
+    "000000000000000000a11ce5"
+  ],
+  "per_inbox": 15,
+  "daily_limit": 90,
+  "daily_limit_new_lead": 45,
+  "send_priority": 0.5,
+  "send_as_txt": "yes",
+  "is_emailopened_tracking": "no",
+  "lead_count": 2,
+  "launched": false,
+  "leads_uploaded": 2
+}
